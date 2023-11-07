@@ -118,7 +118,7 @@ div.br
     background-color: rgb(201, 189, 189);
     justify-content: space-evenly;
 }
-@media (max-width: 1400px) {
+@media (max-width: 1440px) {
     .row-footer {
       flex-direction: column;
     }

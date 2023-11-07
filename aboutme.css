@@ -11,7 +11,7 @@ html
     text-rendering: optimizeLegibility;
 }
 body{
-    background: linear-gradient(rgb(0, 0, 0),rgb(130, 155, 202));
+    background-image: linear-gradient(rgb(0, 0, 0),rgb(130, 155, 202));
 }
 
 #aboutme{
@@ -50,11 +50,6 @@ body{
     color: rgb(242, 229, 210) ;
     padding: 20px;
     margin: 10px;
-    /* border-radius: 20px;
-    border: 1px solid rgb(182, 86, 86);
-    text-shadow: rgb(149, 188, 224) 1px 0 10px;
-    background-color: rgba(61, 84, 101, 0.088);
-    box-shadow: 10px 10px 10px rgb(81, 113, 115); */
 }
 .menu-item:hover
 {
@@ -73,7 +68,7 @@ body{
 .amcontain
 {
     color: black;
-    background-color:rgba(242, 229, 210, 0.562);
+    background-color:rgba(242, 229, 210, 0.248);
     padding: 20px;
     border-radius: 20px;
 }
@@ -84,13 +79,13 @@ body{
     align-items: center;
     justify-content: center;
 }
-.header-title
+/* .header-title
 {
     padding: 20px;
     overflow: hidden;
     font-family: Sometype Mono;
-    color:rgb(242, 229, 210);;
-}
+    color:rgb(242, 229, 210);
+} */
 .header-body
 {
     overflow: hidden;
@@ -102,7 +97,7 @@ body{
     background-color:rgba(242, 229, 210, 0.353);
     overflow: hidden;
 }
-@media (max-width: 1400px) {
+@media (max-width: 1440px) {
     .body-row {
       flex-direction: column;
     }
