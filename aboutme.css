@@ -1,0 +1,122 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    scroll-behavior: smooth;
+    font-family: 'agbalumo';
+    text-rendering: optimizeLegibility;
+}
+body{
+    background: linear-gradient(rgb(0, 0, 0),rgb(130, 155, 202));
+}
+
+#aboutme{
+    border-bottom: 2px solid rgb(130, 155, 202);
+}
+
+/* menu section */
+.menu-row
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.personal-image-item img
+{
+    min-width: 80px;
+    width: 10%;
+    border-radius: 50%;
+    border: 5px solid rgba(149, 188, 224, 0.322);
+    margin: 2%;
+}
+.personal-image-item:hover img
+{
+   border: 5px solid rgba(149, 188, 224, 0.686);
+}
+
+.menu
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.541),rgba(0, 0, 0, 0.936)), url(images/aboutme.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.menu-item
+{
+    color: rgb(242, 229, 210) ;
+    padding: 20px;
+    margin: 10px;
+    /* border-radius: 20px;
+    border: 1px solid rgb(182, 86, 86);
+    text-shadow: rgb(149, 188, 224) 1px 0 10px;
+    background-color: rgba(61, 84, 101, 0.088);
+    box-shadow: 10px 10px 10px rgb(81, 113, 115); */
+}
+.menu-item:hover
+{
+    border-bottom: 2px solid rgb(130, 155, 202);
+}
+
+
+/* body section */
+.body
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.amcontain
+{
+    color: black;
+    background-color:rgba(242, 229, 210, 0.562);
+    padding: 20px;
+    border-radius: 20px;
+}
+.header
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header-title
+{
+    padding: 20px;
+    overflow: hidden;
+    font-family: Sometype Mono;
+    color:rgb(242, 229, 210);;
+}
+.header-body
+{
+    overflow: hidden;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    font-family: Sometype Mono;
+    color:rgb(242, 229, 210);;
+    background-color:rgba(242, 229, 210, 0.353);
+    overflow: hidden;
+}
+@media (max-width: 1400px) {
+    .body-row {
+      flex-direction: column;
+    }
+  }
+.body-row
+{
+    display: flex;
+}
+.info
+{
+    overflow: hidden;
+    margin: 20px;
+    font-family: Sometype Mono;
+    color:rgb(242, 229, 210);;
+    background-color:rgba(242, 229, 210, 0.562);
+    padding: 20px;
+}

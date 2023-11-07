@@ -1,0 +1,140 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    scroll-behavior: smooth;
+    font-family: 'agbalumo';
+    text-rendering: optimizeLegibility;
+}
+#home
+{
+    border-bottom: 2px solid rgb(130, 155, 202);
+}
+div.br
+{
+    padding: 2%;
+    background: linear-gradient(rgb(83, 74, 74), rgba(45, 45, 70, 0.993));
+}
+
+/* menu section */
+.menu-row
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.personal-image-item img
+{
+    min-width: 80px;
+    width: 10%;
+    border-radius: 50%;
+    border: 5px solid rgba(149, 188, 224, 0.322);
+    margin: 2%;
+}
+.personal-image-item:hover img
+{
+   border: 5px solid rgba(149, 188, 224, 0.686);
+}
+
+.menu
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.138),rgba(0, 0, 0, 0.774)), url(images/laptop-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.menu-item
+{
+    color: rgb(242, 229, 210) ;
+    padding: 20px;
+    margin: 10px;
+}
+.menu-item:hover
+{
+    border-bottom: 2px solid rgb(130, 155, 202);
+}
+/* article within header section */
+.body
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 17%;
+    margin-top: 10%;
+}
+.text
+{
+    font-family: Sometype Mono;
+    font-size: 200%;
+    color: rgb(196, 186, 174);
+}
+/* arrow */
+.arrow-container
+{
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+}
+.arrow a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 250%;
+}
+.arrow a:hover
+{
+    font-size: 270%;
+    color: rgba(201, 189, 189, 0.436);
+}
+
+
+/* article section */
+#article
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.316),rgba(0, 0, 0, 0.952)), url(images/ai-generated-8348887_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.row-content{
+    display: block;
+    font-family:Sometype Mono; 
+    margin: 10%;
+    margin-bottom: 15.8%;
+}
+.rows
+{
+    color: rgba(244, 225, 203, 0.83)
+}
+.row-footer
+{    
+    display: flex;
+    width: 100%;
+    background-color: rgb(201, 189, 189);
+    justify-content: space-evenly;
+}
+@media (max-width: 1400px) {
+    .row-footer {
+      flex-direction: column;
+    }
+  }
+.foot
+{
+   padding: 20px; 
+   text-decoration: none;
+   color: black;
+}
+.foot h4
+{
+    font-family: Sometype Mono;
+}
+ion-icon 
+{
+    font-size: 30px;
+    color: black;
+}
